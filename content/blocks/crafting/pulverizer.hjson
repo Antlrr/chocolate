@@ -1,9 +1,12 @@
-squareSprite: false
 drawer: [
     {
         type: DrawMulti 
         drawers: 
         [
+            {
+                type: DrawRegion
+                suffix: "-bottom"
+            }
             {
                 type: DrawDefault
             }
@@ -11,7 +14,7 @@ drawer: [
                 type: DrawRegion
                 suffix: "-rotator"
                 spinSprite: true
-                rotateSpeed: 1
+                rotateSpeed: 2
             }
         ]
     }
